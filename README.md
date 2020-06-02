@@ -23,6 +23,9 @@ pipenv shell
 flask run
 ```
 
+### Hosting
+Tiny Expander is hosted with vercel. To h
+
 ## 😱 Issues and limitations
 <!-- are there any limitations worth mentioning in the readme? -->
 - The app won't run on iOS 11 or below
