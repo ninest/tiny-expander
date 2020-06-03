@@ -14,6 +14,24 @@
   </a>
 </p>
 
+## 🚀 Usage
+
+Visiting the URL will return the expanded URL:
+
+```
+https://tiny-expander.now.sh/api/<tiny url without https>
+```
+
+For example, 
+
+```
+https://tiny-expander.now.sh/api/tinyurl.com/y6dqpgc7
+
+# returns
+http://www.google.com/
+```
+
+Warning: in the GET request, you have to provide the tinyurl **without** the `https://`. This is just a temporary solution until POST is added.
 
 ## 🛠 Build setup
 Clone or fork the repository, then run
@@ -24,11 +42,15 @@ flask run
 ```
 
 ### Hosting
-Tiny Expander is hosted with vercel. To h
+Tiny Expander is hosted with vercel. To host, run
 
-## 😱 Issues and limitations
+```
+vercel
+```
+
+<!-- ## 😱 Issues and limitations -->
 <!-- are there any limitations worth mentioning in the readme? -->
-- The app won't run on iOS 11 or below
+<!-- - The app won't run on iOS 11 or below -->
 
 ## 📜 License
 MIT
